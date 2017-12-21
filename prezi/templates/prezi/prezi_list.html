@@ -7,5 +7,8 @@
     <title>Prezi list</title>
 </head>
 <body>
+    {% for prezi in prezis %}
+        <img src="{{ prezi.thumbnail }}">
+    {% endfor %}
 </body>
 </html>
